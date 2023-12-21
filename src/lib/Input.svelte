@@ -34,7 +34,7 @@
     min="1"
     onkeydown="false"
     bind:value={credit}
-    class="bg-[#393E46] m-[0.3rem] rounded-lg pl-2 h-9 border-gray-600 border-0 ring-1 ring-gray-600 outline-none focus:ring-blue-500"
+    class="bg-[#393E46] w-36 sm:w-fit m-[0.3rem] rounded-lg pl-2 h-9 border-gray-600 border-0 ring-1 ring-gray-600 outline-none focus:ring-blue-500"
   />
 
   <td class=" items-center">

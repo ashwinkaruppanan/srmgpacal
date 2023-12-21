@@ -27,6 +27,9 @@
   $: gpa = (gsum / csum).toFixed(2);
 </script>
 
+<svelte:head>
+  <title>SRM GPA Calculator | SRM Institute of Science and Technology</title>
+</svelte:head>
 <div class=" flex justify-center mt-10 mb-8">
   <h2 class=" text-xl md:text-3xl text-blue-500 font-bold">
     SRM University <span class=" text-white font-normal">GPA Calculator</span>

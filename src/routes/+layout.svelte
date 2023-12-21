@@ -1,7 +1,15 @@
 <script>
   import "../app.css";
   import Footer from "../lib/Footer.svelte";
+
+  $: load = false;
+
+  setTimeout(() => {
+    load = true;
+  }, 0);
 </script>
 
-<slot />
-<Footer />
+{#if load}
+  <slot />
+  <Footer />
+{/if}
